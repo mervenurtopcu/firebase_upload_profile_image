@@ -1,6 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firebase_upload_profile_image">
-   <application
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
         android:label="firebase_upload_profile_image"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
